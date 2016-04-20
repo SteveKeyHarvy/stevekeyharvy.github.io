@@ -188,7 +188,8 @@
 
     <script src="https://cdn.smooch.io/smooch.min.js"></script>
     <script>
-            Smooch.init({ appToken: '5al2a4fu3zbgh2x8prgc2xiil' 
+            Smooch.init({ 
+            appToken: '5al2a4fu3zbgh2x8prgc2xiil',
             customText: {
             headerText: 'Talk to my bot!',
             inputPlaceholder: 'Ask the bot a question...',
@@ -204,11 +205,10 @@
             invalidFileError: 'Sorry, but only images are supported currently. Please choose a file with a supported extension (jpg, jpeg, png, gif, or bmp).',
             messageIndicatorTitleSingular: '({count}) New message',
             messageIndicatorTitlePlural: '({count}) New messages'
-        }
-
-
+        },
+        Smooch.open();
         });
-            Smooch.open();
+            
     </script>
 
 </body>
