@@ -188,7 +188,26 @@
 
     <script src="https://cdn.smooch.io/smooch.min.js"></script>
     <script>
-            Smooch.init({ appToken: '5al2a4fu3zbgh2x8prgc2xiil' });
+            Smooch.init({ appToken: '5al2a4fu3zbgh2x8prgc2xiil' 
+            customText: {
+            headerText: 'Talk to my bot!',
+            inputPlaceholder: 'Ask the bot a question...',
+            sendButtonText: 'Send',
+            introText: 'This is the beginning of your conversation, ask Stephen\'s bot a question!',
+            settingsText: 'You can me your email so that Stephen can personally get back to you.',
+            settingsReadOnlyText: 'Stephen will get back to you at this email address.',
+            settingsInputPlaceholder: 'Your email address',
+            settingsSaveButtonText: 'Save',
+            settingsHeaderText: 'Email Settings',
+            settingsNotificationText: 'In the bot is slow to respond you can <a href data-ui-settings-link>leave us your email</a>.',
+            messageError: 'An error occured while sending your message. Please try again.',
+            invalidFileError: 'Sorry, but only images are supported currently. Please choose a file with a supported extension (jpg, jpeg, png, gif, or bmp).',
+            messageIndicatorTitleSingular: '({count}) New message',
+            messageIndicatorTitlePlural: '({count}) New messages'
+        }
+
+
+        });
             Smooch.open();
     </script>
 
